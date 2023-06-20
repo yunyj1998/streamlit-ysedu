@@ -11,6 +11,10 @@ def run_eda_app():
 
     iris = pd.read_csv('data/iris.csv')
     st.markdown('## IRIS 데이터 확인')
+
+
+
+
     st.write(iris)
 
     # 메뉴 지정
